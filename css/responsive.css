@@ -1,0 +1,289 @@
+@media screen and (max-width: 1060px) {
+  #header .nav ul .drop-down {
+    opacity: 0 !important; }
+  #header .nav i {
+    display: none; }
+  #header .slider .logo-abs {
+    padding-top: 15%; }
+    #header .slider .logo-abs img {
+      width: 60%; }
+  #main .new .list .col {
+    width: 50%;
+    margin-bottom: 30px; }
+  #main .new .list .btn-wrapper {
+    position: relative;
+    left: 0;
+    margin: -245px auto 15px; }
+  #main .new .list .share {
+    top: 15px;
+    right: 15px; }
+  #main .about-main .bottom .left {
+    float: none; }
+    #main .about-main .bottom .left .slider {
+      margin: 0 auto; }
+  #main .about-main .bottom .right {
+    float: none;
+    width: 545px;
+    margin: 20px auto 0; }
+  #main .about-block .left, #main .about-block .right {
+    float: none;
+    width: 100%; }
+  #main .about-block .slider {
+    margin: 0 auto; }
+  #main .about-page .bottom .left {
+    float: none;
+    margin-right: 0; }
+  #main .about-page .bottom .middle {
+    float: none;
+    width: 350px;
+    margin: 0 auto 20px; }
+  #main .about-page .bottom .video {
+    margin: 0 auto 20px;
+    text-align: center; }
+  #main .reviews.right {
+    width: 100%; }
+    #main .reviews.right .img {
+      width: 10%; }
+    #main .reviews.right .content {
+      width: 90%; }
+      #main .reviews.right .content .text:before {
+        top: 3px; }
+  #main .services .services-list .item {
+    width: 50%;
+    text-align: center;
+    padding: 0 !important; }
+    #main .services .services-list .item img {
+      display: block;
+      margin: 0 auto; }
+  #main .services .service .left {
+    width: 100%; }
+  #main .services .services-service-list .item .left {
+    width: 90%; }
+  #main .services .services-service-list .item .right {
+    width: 10%; }
+  #main .ladder .img {
+    width: 30%; }
+    #main .ladder .img img {
+      width: 100%;
+      height: auto; }
+  #main .ladder .content {
+    width: 70%;
+    padding-left: 3%; }
+  #main .news-item .left, #main .news-item .right, #main .photogallery-in .left, #main .photogallery-in .right {
+    float: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0; }
+  #main .news-item .left img, #main .photogallery-in .left img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+  #main .news-item .right h1, #main .photogallery-in .right h1 {
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: center; }
+  #main .news-item .right .slider img, #main .photogallery-in .right .slider img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto; }
+  #main .news-item .right .slick-arrow, #main .photogallery-in .right .slick-arrow {
+    height: 100%; }
+  #main .news-item .right .slick-next, #main .photogallery-in .right .slick-next {
+    right: 0; }
+  #main .news-item .btn, #main .photogallery-in .btn {
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  #main .photogallery .item {
+    width: 50%;
+    padding: 0 !important; }
+    #main .photogallery .item img {
+      display: block;
+      margin: 0 auto 5px;
+      max-width: 100%; }
+  #main .masters .item .img {
+    width: 100%; }
+    #main .masters .item .img img {
+      display: block;
+      max-width: 312px;
+      margin: 0 auto 10px; }
+  #main .masters .item .content {
+    width: 100%;
+    padding: 0; }
+  #main .masters .item h3 {
+    text-align: center; }
+  #main .masters .item .works {
+    float: none; }
+    #main .masters .item .works span {
+      display: none; }
+  #main .brands .img {
+    width: 100%; }
+    #main .brands .img img {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto 30px; }
+  #main .brands .content {
+    width: 100%;
+    padding: 0; }
+  #main .brands h3 {
+    text-align: center; }
+  #footer .left, #footer .right {
+    width: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0; }
+  #footer .middle {
+    display: none; }
+  #footer .right {
+    text-align: right; } }
+
+@media screen and (max-width: 950px) {
+  #header .nav {
+    padding-bottom: 20px; }
+    #header .nav .logo {
+      margin-bottom: 5px; }
+    #header .nav .btn {
+      border: 0; }
+    #header .nav ul {
+      width: 100%; }
+      #header .nav ul li {
+        margin-right: 15px !important;
+        margin-left: 15px !important; }
+    #header .nav .left {
+      margin-top: 110px; }
+    #header .nav .middle {
+      float: none;
+      position: absolute;
+      width: 100%;
+      top: -10px;
+      left: 0; }
+    #header .nav .right {
+      padding-top: 10px; }
+  #header .slider {
+    top: 0;
+    margin-bottom: 0; } }
+
+@media screen and (max-width: 768px) {
+  .popup .container {
+    width: 85%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .popup iframe {
+    width: 100%;
+    height: 250px; }
+  #header .nav ul li {
+    display: block;
+    margin: 0 0 10px !important; }
+  #header .nav .right {
+    padding-top: 0; }
+  #main .new .list .item {
+    width: 100%; }
+  #main .new .list .share {
+    right: 35%; }
+  #main .new .list .btn-wrapper {
+    opacity: 1; }
+  #main .reviews.right h3 {
+    text-align: center; }
+  #main .reviews.right .img {
+    width: 20%; }
+    #main .reviews.right .img img {
+      display: block;
+      margin: 0 auto; }
+  #main .reviews.right .content {
+    width: 80%; }
+  #main .services .services-list .item {
+    width: 100%; }
+    #main .services .services-list .item img {
+      max-width: 100%; }
+  #main .services .services-title .col {
+    width: 100%;
+    text-align: center; }
+  #main .services .services-title h2 {
+    margin-bottom: 30px; }
+  #main .services .services-title .right {
+    line-height: 30px;
+    margin-bottom: 20px; }
+  #main .services .articles .item {
+    width: 100% !important;
+    padding-right: 0 !important; }
+  #main .services .services-service-list .item .left {
+    width: 100%; }
+  #main .services .services-service-list .item .right {
+    width: 100%;
+    text-align: center; }
+    #main .services .services-service-list .item .right a {
+      display: inline-block;
+      margin: 0 10px; }
+  #main .about-main .bottom .right {
+    width: 100%;
+    text-align: center; }
+    #main .about-main .bottom .right p {
+      display: none; }
+  #main .photogallery .item {
+    width: 100%; }
+  #main .ladder .img {
+    width: 100%; }
+    #main .ladder .img img {
+      display: block;
+      width: auto;
+      margin: 0 auto 5px; }
+  #main .ladder .content {
+    width: 100%; }
+  #main .ladder h3 {
+    text-align: center; } }
+
+@media screen and (max-width: 530px) {
+  .btn.with-border, button.with-border {
+    padding: 4.5px 34px; }
+  #header .panel {
+    text-align: center; }
+    #header .panel .left, #header .panel .right {
+      float: none;
+      width: 100%; }
+    #header .panel .right {
+      margin-top: 10px; }
+    #header .panel .callbackBtn {
+      display: block;
+      text-align: center;
+      margin: 5px auto 0; }
+  #header .nav .left {
+    margin-top: 100px; }
+  #main .services .service .price .table td:nth-of-type(2), #main .services .service .price .table td:nth-of-type(5), #main .services .service .price .table td:nth-of-type(6), #main .services .service .price .table td:nth-of-type(7), #main .services .service .price .table td:nth-of-type(8) {
+    display: none; }
+  #main .masters .item .text {
+    margin-bottom: 0; }
+  #main .masters .item .works {
+    display: none; }
+  #main .about-page .bottom .middle {
+    width: 100%; }
+  #main .reviews.right .img, #main .reviews.right .content {
+    width: 100%; }
+  #main .reviews.right .content .text:before {
+    display: none; }
+  #footer .left, #footer .right {
+    width: 100%;
+    text-align: center; }
+  #footer .left {
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 450px) {
+  .slider.mini {
+    width: 100%; }
+  #header {
+    border-bottom: 2px solid #6E4944; }
+    #header .slider {
+      display: none; }
+  #main .about-page .bottom .video iframe {
+    width: 100%; }
+  #main .ladder .img {
+    text-align: center; }
+    #main .ladder .img img {
+      max-width: 90%; }
+  #main .news-item .left img, #main .photogallery-in .left img {
+    max-width: 90%; } }
+
+@media screen and (max-width: 330px) {
+  #main .services .service .price .table td:nth-of-type(4) {
+    display: none; } }

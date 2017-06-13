@@ -1,0 +1,1451 @@
+/*
+  SASS variables are information about icon's compiled state, stored under its original file name
+
+  .icon-home
+    width: $icon-home-width
+
+  The large array-like variables contain all information about a single icon
+  $icon-home: x y offset_x offset_y width height total_width total_height image_path
+
+  At the bottom of this section, we provide information about the spritesheet itself
+  $spritesheet: width height image $spritesheet-sprites
+  */
+$arrow-down-name: 'arrow-down'
+$arrow-down-x: 250px
+$arrow-down-y: 139px
+$arrow-down-offset-x: -250px
+$arrow-down-offset-y: -139px
+$arrow-down-width: 8px
+$arrow-down-height: 5px
+$arrow-down-total-width: 279px
+$arrow-down-total-height: 266px
+$arrow-down-image: '../img/sprite.png'
+$arrow-down: (250px, 139px, -250px, -139px, 8px, 5px, 279px, 266px, '../img/sprite.png', 'arrow-down', )
+$arrow-left-name: 'arrow-left'
+$arrow-left-x: 243px
+$arrow-left-y: 145px
+$arrow-left-offset-x: -243px
+$arrow-left-offset-y: -145px
+$arrow-left-width: 18px
+$arrow-left-height: 34px
+$arrow-left-total-width: 279px
+$arrow-left-total-height: 266px
+$arrow-left-image: '../img/sprite.png'
+$arrow-left: (243px, 145px, -243px, -145px, 18px, 34px, 279px, 266px, '../img/sprite.png', 'arrow-left', )
+$arrow-right-name: 'arrow-right'
+$arrow-right-x: 250px
+$arrow-right-y: 105px
+$arrow-right-offset-x: -250px
+$arrow-right-offset-y: -105px
+$arrow-right-width: 18px
+$arrow-right-height: 34px
+$arrow-right-total-width: 279px
+$arrow-right-total-height: 266px
+$arrow-right-image: '../img/sprite.png'
+$arrow-right: (250px, 105px, -250px, -105px, 18px, 34px, 279px, 266px, '../img/sprite.png', 'arrow-right', )
+$border-name: 'border'
+$border-x: 0px
+$border-y: 0px
+$border-offset-x: 0px
+$border-offset-y: 0px
+$border-width: 210px
+$border-height: 210px
+$border-total-width: 279px
+$border-total-height: 266px
+$border-image: '../img/sprite.png'
+$border: (0px, 0px, 0px, 0px, 210px, 210px, 279px, 266px, '../img/sprite.png', 'border', )
+$eye-name: 'eye'
+$eye-x: 246px
+$eye-y: 185px
+$eye-offset-x: -246px
+$eye-offset-y: -185px
+$eye-width: 19px
+$eye-height: 12px
+$eye-total-width: 279px
+$eye-total-height: 266px
+$eye-image: '../img/sprite.png'
+$eye: (246px, 185px, -246px, -185px, 19px, 12px, 279px, 266px, '../img/sprite.png', 'eye', )
+$facebook-name: 'facebook'
+$facebook-x: 265px
+$facebook-y: 185px
+$facebook-offset-x: -265px
+$facebook-offset-y: -185px
+$facebook-width: 7px
+$facebook-height: 12px
+$facebook-total-width: 279px
+$facebook-total-height: 266px
+$facebook-image: '../img/sprite.png'
+$facebook: (265px, 185px, -265px, -185px, 7px, 12px, 279px, 266px, '../img/sprite.png', 'facebook', )
+$filter-name: 'filter'
+$filter-x: 0px
+$filter-y: 228px
+$filter-offset-x: 0px
+$filter-offset-y: -228px
+$filter-width: 18px
+$filter-height: 19px
+$filter-total-width: 279px
+$filter-total-height: 266px
+$filter-image: '../img/sprite.png'
+$filter: (0px, 228px, 0px, -228px, 18px, 19px, 279px, 266px, '../img/sprite.png', 'filter', )
+$flower-big-name: 'flower-big'
+$flower-big-x: 210px
+$flower-big-y: 0px
+$flower-big-offset-x: -210px
+$flower-big-offset-y: 0px
+$flower-big-width: 64px
+$flower-big-height: 65px
+$flower-big-total-width: 279px
+$flower-big-total-height: 266px
+$flower-big-image: '../img/sprite.png'
+$flower-big: (210px, 0px, -210px, 0px, 64px, 65px, 279px, 266px, '../img/sprite.png', 'flower-big', )
+$flower-mini-purple-name: 'flower-mini-purple'
+$flower-mini-purple-x: 18px
+$flower-mini-purple-y: 228px
+$flower-mini-purple-offset-x: -18px
+$flower-mini-purple-offset-y: -228px
+$flower-mini-purple-width: 18px
+$flower-mini-purple-height: 17px
+$flower-mini-purple-total-width: 279px
+$flower-mini-purple-total-height: 266px
+$flower-mini-purple-image: '../img/sprite.png'
+$flower-mini-purple: (18px, 228px, -18px, -228px, 18px, 17px, 279px, 266px, '../img/sprite.png', 'flower-mini-purple', )
+$flower-mini-yellow-name: 'flower-mini-yellow'
+$flower-mini-yellow-x: 36px
+$flower-mini-yellow-y: 228px
+$flower-mini-yellow-offset-x: -36px
+$flower-mini-yellow-offset-y: -228px
+$flower-mini-yellow-width: 18px
+$flower-mini-yellow-height: 17px
+$flower-mini-yellow-total-width: 279px
+$flower-mini-yellow-total-height: 266px
+$flower-mini-yellow-image: '../img/sprite.png'
+$flower-mini-yellow: (36px, 228px, -36px, -228px, 18px, 17px, 279px, 266px, '../img/sprite.png', 'flower-mini-yellow', )
+$human-name: 'human'
+$human-x: 16px
+$human-y: 247px
+$human-offset-x: -16px
+$human-offset-y: -247px
+$human-width: 12px
+$human-height: 12px
+$human-total-width: 279px
+$human-total-height: 266px
+$human-image: '../img/sprite.png'
+$human: (16px, 247px, -16px, -247px, 12px, 12px, 279px, 266px, '../img/sprite.png', 'human', )
+$instagram-name: 'instagram'
+$instagram-x: 261px
+$instagram-y: 157px
+$instagram-offset-x: -261px
+$instagram-offset-y: -157px
+$instagram-width: 12px
+$instagram-height: 12px
+$instagram-total-width: 279px
+$instagram-total-height: 266px
+$instagram-image: '../img/sprite.png'
+$instagram: (261px, 157px, -261px, -157px, 12px, 12px, 279px, 266px, '../img/sprite.png', 'instagram', )
+$mastercard-name: 'mastercard'
+$mastercard-x: 0px
+$mastercard-y: 210px
+$mastercard-offset-x: 0px
+$mastercard-offset-y: -210px
+$mastercard-width: 30px
+$mastercard-height: 18px
+$mastercard-total-width: 279px
+$mastercard-total-height: 266px
+$mastercard-image: '../img/sprite.png'
+$mastercard: (0px, 210px, 0px, -210px, 30px, 18px, 279px, 266px, '../img/sprite.png', 'mastercard', )
+$price-name: 'price'
+$price-x: 0px
+$price-y: 247px
+$price-offset-x: 0px
+$price-offset-y: -247px
+$price-width: 16px
+$price-height: 19px
+$price-total-width: 279px
+$price-total-height: 266px
+$price-image: '../img/sprite.png'
+$price: (0px, 247px, 0px, -247px, 16px, 19px, 279px, 266px, '../img/sprite.png', 'price', )
+$question-name: 'question'
+$question-x: 210px
+$question-y: 105px
+$question-offset-x: -210px
+$question-offset-y: -105px
+$question-width: 40px
+$question-height: 40px
+$question-total-width: 279px
+$question-total-height: 266px
+$question-image: '../img/sprite.png'
+$question: (210px, 105px, -210px, -105px, 40px, 40px, 279px, 266px, '../img/sprite.png', 'question', )
+$search-name: 'search'
+$search-x: 261px
+$search-y: 145px
+$search-offset-x: -261px
+$search-offset-y: -145px
+$search-width: 12px
+$search-height: 12px
+$search-total-width: 279px
+$search-total-height: 266px
+$search-image: '../img/sprite.png'
+$search: (261px, 145px, -261px, -145px, 12px, 12px, 279px, 266px, '../img/sprite.png', 'search', )
+$tel-name: 'tel'
+$tel-x: 210px
+$tel-y: 65px
+$tel-offset-x: -210px
+$tel-offset-y: -65px
+$tel-width: 40px
+$tel-height: 40px
+$tel-total-width: 279px
+$tel-total-height: 266px
+$tel-image: '../img/sprite.png'
+$tel: (210px, 65px, -210px, -65px, 40px, 40px, 279px, 266px, '../img/sprite.png', 'tel', )
+$triangle-left-name: 'triangle_left'
+$triangle-left-x: 268px
+$triangle-left-y: 105px
+$triangle-left-offset-x: -268px
+$triangle-left-offset-y: -105px
+$triangle-left-width: 5px
+$triangle-left-height: 20px
+$triangle-left-total-width: 279px
+$triangle-left-total-height: 266px
+$triangle-left-image: '../img/sprite.png'
+$triangle-left: (268px, 105px, -268px, -105px, 5px, 20px, 279px, 266px, '../img/sprite.png', 'triangle_left', )
+$triangle-reviews-name: 'triangle_reviews'
+$triangle-reviews-x: 250px
+$triangle-reviews-y: 65px
+$triangle-reviews-offset-x: -250px
+$triangle-reviews-offset-y: -65px
+$triangle-reviews-width: 20px
+$triangle-reviews-height: 39px
+$triangle-reviews-total-width: 279px
+$triangle-reviews-total-height: 266px
+$triangle-reviews-image: '../img/sprite.png'
+$triangle-reviews: (250px, 65px, -250px, -65px, 20px, 39px, 279px, 266px, '../img/sprite.png', 'triangle_reviews', )
+$triangle-right-name: 'triangle_right'
+$triangle-right-x: 274px
+$triangle-right-y: 0px
+$triangle-right-offset-x: -274px
+$triangle-right-offset-y: 0px
+$triangle-right-width: 5px
+$triangle-right-height: 20px
+$triangle-right-total-width: 279px
+$triangle-right-total-height: 266px
+$triangle-right-image: '../img/sprite.png'
+$triangle-right: (274px, 0px, -274px, 0px, 5px, 20px, 279px, 266px, '../img/sprite.png', 'triangle_right', )
+$triangle-video-name: 'triangle_video'
+$triangle-video-x: 210px
+$triangle-video-y: 145px
+$triangle-video-offset-x: -210px
+$triangle-video-offset-y: -145px
+$triangle-video-width: 33px
+$triangle-video-height: 40px
+$triangle-video-total-width: 279px
+$triangle-video-total-height: 266px
+$triangle-video-image: '../img/sprite.png'
+$triangle-video: (210px, 145px, -210px, -145px, 33px, 40px, 279px, 266px, '../img/sprite.png', 'triangle_video', )
+$visa-name: 'visa'
+$visa-x: 30px
+$visa-y: 210px
+$visa-offset-x: -30px
+$visa-offset-y: -210px
+$visa-width: 39px
+$visa-height: 12px
+$visa-total-width: 279px
+$visa-total-height: 266px
+$visa-image: '../img/sprite.png'
+$visa: (30px, 210px, -30px, -210px, 39px, 12px, 279px, 266px, '../img/sprite.png', 'visa', )
+$vk-name: 'vk'
+$vk-x: 69px
+$vk-y: 210px
+$vk-offset-x: -69px
+$vk-offset-y: -210px
+$vk-width: 18px
+$vk-height: 10px
+$vk-total-width: 279px
+$vk-total-height: 266px
+$vk-image: '../img/sprite.png'
+$vk: (69px, 210px, -69px, -210px, 18px, 10px, 279px, 266px, '../img/sprite.png', 'vk', )
+$wifi-name: 'wifi'
+$wifi-x: 210px
+$wifi-y: 185px
+$wifi-offset-x: -210px
+$wifi-offset-y: -185px
+$wifi-width: 36px
+$wifi-height: 16px
+$wifi-total-width: 279px
+$wifi-total-height: 266px
+$wifi-image: '../img/sprite.png'
+$wifi: (210px, 185px, -210px, -185px, 36px, 16px, 279px, 266px, '../img/sprite.png', 'wifi', )
+$youtube-name: 'youtube'
+$youtube-x: 54px
+$youtube-y: 228px
+$youtube-offset-x: -54px
+$youtube-offset-y: -228px
+$youtube-width: 16px
+$youtube-height: 11px
+$youtube-total-width: 279px
+$youtube-total-height: 266px
+$youtube-image: '../img/sprite.png'
+$youtube: (54px, 228px, -54px, -228px, 16px, 11px, 279px, 266px, '../img/sprite.png', 'youtube', )
+$spritesheet-width: 279px
+$spritesheet-height: 266px
+$spritesheet-image: '../img/sprite.png'
+$spritesheet-sprites: ($arrow-down, $arrow-left, $arrow-right, $border, $eye, $facebook, $filter, $flower-big, $flower-mini-purple, $flower-mini-yellow, $human, $instagram, $mastercard, $price, $question, $search, $tel, $triangle-left, $triangle-reviews, $triangle-right, $triangle-video, $visa, $vk, $wifi, $youtube, )
+$spritesheet: (279px, 266px, '../img/sprite.png', $spritesheet-sprites, )
+
+/*
+  The provided mixins are intended to be used with the array-like variables
+
+  .icon-home
+    @include sprite-width($icon-home)
+
+  .icon-email
+    @include sprite($icon-email)
+
+  Example usage in HTML:
+    `display: block` sprite:
+    <div class="icon-home"></div>
+
+  To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+    // CSS
+    .icon {
+      display: inline-block;
+    }
+
+    // HTML
+    <i class="icon icon-home"></i>
+  */
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+/*
+  The `sprites` mixin generates identical output to the CSS template
+    but can be overridden inside of SASS
+
+  @include sprites($spritesheet-sprites)
+  */
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)
+
+
+i.icon-arrow-down
+  @include sprite($arrow-down)
+i.icon-arrow-left
+  @include sprite($arrow-left)
+i.icon-arrow-right
+  @include sprite($arrow-right)
+i.icon-border
+  @include sprite($border)
+i.icon-eye
+  @include sprite($eye)
+i.icon-facebook
+  @include sprite($facebook)
+i.icon-filter
+  @include sprite($filter)
+i.icon-flower-big
+  @include sprite($flower-big)
+i.icon-flower-mini-purple
+  @include sprite($flower-mini-purple)
+i.icon-flower-mini-yellow
+  @include sprite($flower-mini-yellow)
+i.icon-human
+  @include sprite($human)
+i.icon-instagram
+  @include sprite($instagram)
+i.icon-mastercard
+  @include sprite($mastercard)
+i.icon-price
+  @include sprite($price)
+i.icon-question
+  @include sprite($question)
+i.icon-search
+  @include sprite($search)
+i.icon-tel
+  @include sprite($tel)
+i.icon-triangle_left
+  @include sprite($triangle_left)
+i.icon-triangle_reviews
+  @include sprite($triangle_reviews)
+i.icon-triangle_right
+  @include sprite($triangle_right)
+i.icon-triangle_video
+  @include sprite($triangle_video)
+i.icon-visa
+  @include sprite($visa)
+i.icon-vk
+  @include sprite($vk)
+i.icon-wifi
+  @include sprite($wifi)
+i.icon-youtube
+  @include sprite($youtube)
+
+
+
+
+
+$c1: #222222
+$c2: #fff
+$c3: #67883F
+$c4: #6E4944
+$c5: #745b55
+$fz: 14px
+$ff: 'Open Sans', sans-serif
+
+
+*
+	margin: 0
+	padding: 0
+	font-weight: 300
+
+body
+	font: $fz $ff
+	color: $c1
+	background: $c2
+	box-sizing: border-box
+
+html, body, header, article, aside, main, footer, div, h1, h2, h3, h4, h5, h6, button, .show, .block
+	display: block
+
+.inline-block
+	display: inline-block
+
+meta, script, style, .hidden
+	display: none
+
+h1, h2, h3, h4, h5, h6
+	font-weight: normal
+
+h1
+	font-size: 36px
+h2
+	font-size: 36px
+	text-align: center
+	text-transform: uppercase
+	font-weight: 600
+	padding-top: 45px
+	color: #654943
+	margin-bottom: 36px
+	.color-gold
+		color: #c2a838
+		font-weight: 600
+	i
+		display: block !important
+		margin: 11px auto 0
+		position: relative
+		&:before, &:after
+			position: absolute
+			content: ''
+			display: inline-block
+			width: 88px
+			height: 1px
+			background: #6E4944
+			top: 9px
+		&:before
+			left: -96px
+		&:after
+			right: -96px
+			
+		
+
+h3
+	font-size: 16px
+h4
+	font-size: 14px
+h5
+	font-size: 12px
+h6
+	font-size: 10px
+
+
+
+a
+	color: $c1
+	text-decoration: none
+
+button, input[type="submit"]
+	cursor: pointer
+
+button, input, textarea
+	display: block
+	outline: none
+	border: none
+	background: none
+	font-family: $ff
+	box-sizing: border-box
+
+input, textarea
+	background: #553531
+	line-height: 32px
+	color: $c2
+	border-radius: 5px
+	padding: 0 15px
+	margin-bottom: 10px
+	box-sizing: border-box
+	width: 180px
+
+textarea
+	resize: none
+
+ul, ol
+	margin: 5px 0 5px 20px
+
+
+::placeholder
+	color: $c2
+
+
+.tal
+	text-align: left
+
+.tac
+	text-align: center
+
+.tar
+	text-align: right
+
+.ttc
+	text-transform: capitalize
+
+i.icon
+	display: inline-block
+	&.icon-arrow-down
+		position: relative
+		top: -2px
+		margin-left: 2px
+
+.i, i
+	font-style: italic
+
+.b, b, strong
+	font-weight: bold
+
+.rotate180
+	transform: rotate(180deg)
+
+.btn, button
+	display: block
+	text-align: center
+	cursor: pointer
+	transition: .3s
+	&.green
+		background: $c3
+		font-size: 17px
+		color: $c2
+		text-align: center
+		margin: 0 auto
+		padding: 0 20px
+		line-height: 32px
+		&:hover
+			background: #4C642E
+	&.with-border
+		padding: 8.5px 46px
+		border-radius: 50px
+		border: 10px solid $c2
+
+
+.container
+	position: relative
+	max-width: 1000px
+	margin: 0 auto
+	padding-left: 15px
+	padding-right: 15px
+
+
+.row, .clearfix, .item 
+	&:before, &:after
+		display: table
+		content: ''
+		box-sizing: border-box
+	&:after
+		clear: both
+
+.w2 > .col
+	width: 50%
+.w3 > .col
+	width: 33.333333333%
+.w4 > .col
+	width: 25%
+.w5 > .col
+	width: 20%
+.w6 > .col
+	width: 16.666666667%
+
+
+.col
+	display: block
+	float: left
+	min-height: 1px
+
+.breadcrumbs
+	list-style: none
+	margin: 0
+	li
+		display: inline
+		color: #745b55
+		font-weight: normal
+		font-size: 15px
+		span, a
+			color: #745b55
+			font-weight: normal
+			font-size: 15px
+		&:after
+			position: relative
+			display: inline-block
+			content: '->'
+			margin-right: -3px
+			margin-left: 0px
+		&:last-of-type
+			&:after
+				display: none
+
+		
+.slider.mini
+	border: 5px solid $c4
+	border-radius: 5px
+	width: 390px
+	img
+		width: 380px
+		height: 225px
+	.slick-arrow
+		z-index: 1
+		&.slick-prev
+			left: 23px
+			@include sprite($arrow-left)
+		&.slick-next
+			right: 23px
+			@include sprite($arrow-right)
+		&:before
+			display: none
+
+
+
+button#sticks
+	width: 40px
+	height: 40px
+	span
+		display: block
+		position: relative
+		width: 35px
+		height: 4px
+		background: $c1		
+		margin-left: auto
+		margin-right: auto
+		transition: .5s
+		&:nth-of-type(2)
+			margin: 6px auto
+	&.close
+		span
+			&:nth-of-type(1)
+				transform: rotate(135deg)
+			&:nth-of-type(2)
+				display: none
+			&:nth-of-type(3)
+				margin-top: -4px
+				transform: rotate(-135deg)
+
+.popup
+	display: none
+	z-index: 1000000
+	position: absolute
+	left: 0
+	top: 0
+	width: 100%
+	height: 100%
+	background: rgba(0,0,0,.5)
+	&.callback
+		.container
+			width: 300px
+	.container
+		width: 540px
+		padding: 20px
+		background: $c2
+		top: 50px
+		.title
+			display: block
+			text-align: center
+			margin-bottom: 20px
+			font-size: 28px
+		.message
+			display: none
+		.btn
+			border-radius: 5px
+		input
+			margin: 0 auto 18px
+		.close
+			position: absolute
+			top: -20px
+			right: -20px
+			background: $c4
+			width: 30px
+			height: 30px
+			font-size: 18px
+			color: $c2
+			border-radius: 2px
+			&:hover
+				background: $c3
+		iframe
+			display: block
+			margin: 0 auto
+
+#header
+	.panel
+		background: $c4
+		padding-top: 16px
+		padding-bottom: 15px
+		.left 
+			*
+				display: inline-block
+				color: $c2
+				font-weight: 300
+			.tel
+				position: relative
+				font-size: 18px
+				color $c2
+				top: 1.5px
+				margin-right: 7px
+			.callbackBtn
+				border-bottom: 1px dashed
+		.right
+			float: right
+			a
+				margin-left: 11px
+	.nav
+		padding-top: 31px
+		ul
+			margin: 0
+			text-align: center
+			padding-top: 23px
+			li
+				position: relative
+				display: inline-block
+				font-size: 17px
+				margin-right: 30px
+				&:last-of-type
+					margin-right: 0
+				&:hover
+					a
+						// border-bottom: 2px solid $c4
+						color: $c1
+					.drop-down
+						opacity: 1
+				i
+					transition: .3s
+				a
+					padding-bottom: 5px
+					color: #654943
+				.drop-down
+					opacity: 0
+					transition: .3s
+					position: absolute
+					top: 130%
+					background: $c2
+					padding: 0
+					li
+						display: block
+						margin: 0 0 5px
+						a
+							border: none
+					// display: none
+		.logo
+			display: block
+			margin-bottom: 15px
+			text-align: center
+		.btn
+			position: relative
+			z-index: 100000
+		#sticks
+			display: none
+	.slider
+		position: relative
+		display: block
+		top: -37px
+		margin-bottom: -37px
+		.logo-abs
+			position: absolute
+			z-index: 10000
+			text-align: center
+			width: 100%
+			padding-top: 182px
+		.wrapper
+			img
+				width: 100%
+		.slick-arrow
+			display: none !important
+		.slick-dots
+			bottom: 30px
+			li
+				padding: 4px
+				width: 26px
+				height: 26px
+				box-sizing: border-box
+				border: 2px solid transparent
+				border-radius: 50%
+				margin: 0 1.5px
+				button
+					width: 14px
+					height: 14px
+					background: $c2
+					border-radius: 50%
+				&.slick-active
+					border: 2px solid $c2
+			button
+				&:before
+					display: none
+
+#main
+	.new
+		h2
+			color: $c1
+			padding-top: 65px
+			i
+				&:before, &:after
+					background: $c1
+		.list
+			margin-top: 35px
+			h5
+				font-size: 17px
+				text-align: center
+				padding-bottom: 15px
+			img
+				display: block
+				margin: 0 auto 25px
+			p
+				line-height: 18px
+				text-align: center
+			.share
+				@include sprite($flower-big)
+				color: $c2
+				font-size: 18px
+				font-weight: 700
+				text-align: center
+				line-height: 65px
+				position: absolute
+				top: 30px
+				right: 60+px
+			.bold
+				font-weight: 700
+				color: #43352c
+			.wrapper
+				position: relative
+				&:hover
+					.btn-wrapper
+						opacity: 1
+			.btn-wrapper
+				width: 220px
+				height: 220px
+				padding: 5px
+				background: rgba(67,53,44,0.7)
+				box-sizing: border-box
+				position: absolute
+				top: 0
+				left: 15px
+				opacity: 0
+				transition: 0.5s
+				div
+					height: 210px
+					width: 210px
+					background-image: url("../img/border.png")
+					padding-top: 97px
+					box-sizing: border-box
+			.btn
+				background: $c2
+				width: 104px
+				height: 30px
+				line-height: 30px
+				text-align: center
+				border-radius: 50px
+				font-size: 12px
+				margin: 0 auto 0
+	.about-main
+		background: #F1F1F1
+		margin-top: 21px
+		padding-bottom: 40px
+		p
+			line-height: 24px
+		.bottom
+			margin-top: 33px
+			.right
+				font-size: 24px
+				float: right
+				padding-top: 30px
+				p
+					position: relative
+					display: inline-block
+					color: #777777
+					top: -65px
+					margin-right: 30px
+				.video-circle
+					position: relative
+					display: inline-block
+					border: 5px solid #FFE0C9
+					border-radius: 50%
+					width: 150px
+					height: 150px
+					cursor: pointer
+					i
+						position: absolute
+						top: 55px
+						left: 65px
+					img
+						position: relative
+	.about-block
+		padding-bottom: 100px
+		p
+			line-height: 24px
+			margin-bottom: 10px
+		.left
+			float: left
+			width: 615px
+		.right
+			float: right
+			width: 370px
+	.about-page
+		p
+			line-height: 24px
+		.bottom
+			margin-top: 40px
+			.video iframe
+				border: 5px solid $c4
+				border-radius: 5px
+			.left
+				margin-right: 85px
+			.middle
+				font-size: 17px
+				.tdlt
+					text-decoration: line-through
+
+				ul
+					margin: 20px 0 0
+				li
+					list-style: none
+					line-height: 24px
+					margin-bottom: 2px
+					a
+						border-bottom: 1px solid
+
+	.reviews.right
+		float: right
+		width: 320px
+		.item
+			margin-bottom: 25px
+			&:last-of-type
+				margin-bottom: 0
+		.img
+			display: block
+			float: left
+		.content
+			float: right
+			width: 240px
+		.name
+			color: #745b55
+			font-weight: 600
+			font-size: 15px
+		.data
+			color: #000000
+			font-weight: 600
+			font-size: 12px
+			margin-bottom: 2px
+		.text
+			padding: 15px
+			background: #E9E4E3
+			font-size: 12px
+			line-height: 15px
+			position: relative
+			&:before
+				z-index: -1
+				position: absolute
+				content: ''
+				left: -19px
+				top: 10px
+				@include sprite($triangle_reviews)
+		h3
+			color: $c4
+			font-size: 15px
+			font-weight: 600
+			padding: 0 0 33px
+	.services-title
+		h2
+			padding-top: 0
+		.left, .right
+			line-height: 70px
+			i
+				position: relative
+				top: 4px
+				margin-right: 4px
+			a
+				font-weight: normal
+				color: #000000
+				border-bottom: 1px solid #000000
+
+		.right
+			text-align: right
+	.services
+		padding-top: 70px
+		.services-list
+			.item
+				float: left
+				width: 33.3333%
+				text-align: center
+				margin-bottom: 30px
+				&:nth-of-type(3n+1)
+					padding-right: 11px
+					box-sizing: border-box
+				&:nth-of-type(3n)
+					padding-left: 11px
+					box-sizing: border-box
+				img
+					border: 5px solid $c4
+					border-radius: 5px
+				a
+					color: #4e3530
+					text-transform: uppercase
+					font-weight: normal
+					font-size: 25px
+		.services-service-list
+			a
+			 	font-size: 25px
+			 	font-weight: 400
+			 	color: #745b55
+			 	display: inline-block
+			 	margin-bottom: 16px
+			p
+			 	color: $c1
+			 	line-height: 24px
+			.item
+				padding-bottom: 32px
+				margin-bottom: 27px
+				border-bottom: 1px solid #654943
+				.left
+					width: 495px
+					float: left
+					padding-right: 15px
+					box-sizing: border-box
+				.right
+					width: 155px
+					float: right
+					a
+						display: block
+						margin: 0 auto
+						text-align: center
+					i
+						&.icon-tel
+							margin-top: 6.5px
+						&.icon-question
+							margin-top: 26px
+		.service
+			padding-top: 44px
+			.left 
+				width: 650px
+			.breadcrumbs
+				padding-bottom: 30px
+			.articles
+				.item
+					float: left
+					width: 50%
+					margin-bottom: 31px
+					padding-right: 40px
+					box-sizing: border-box
+					&:nth-of-type(odd)
+						width: 55%
+					&:nth-of-type(even)
+						padding-right: 0
+						width: 45%
+				*
+					font-size: 15px
+					font-weight: normal
+				img
+					display: block
+					float: left
+					margin-right: 15px
+					width: 124px
+					border: 2px solid #775550
+				p
+					margin-top: 7px
+					margin-bottom: 5px
+				a
+					color: #000
+					border-bottom: 1px solid
+			.descrition
+				p
+					margin-bottom: 15px
+					font-size: 15px
+					font-weight: normal
+					color: $c4
+			.price
+				border-top: 1px solid #6E4944
+				padding-bottom: 45px
+				h3
+					text-align: center
+					color: $c4
+					font-size: 15px
+					font-weight: 600
+					padding: 28px 0 36px
+				.table
+					text-align: center
+					background: #E9E4E3
+					width: 100%
+					.row, tr
+						background: #E9E4E3
+						min-height: 34px
+						padding-top: 5px
+						padding-bottom: 5px
+						box-sizing: border-box
+						line-height: 44px
+
+						&:nth-of-type(even)
+							background: #F9F5E9
+						&.title
+							*
+								color: #654943
+								font-weight: 600
+								font-size: 15px
+						.fz10
+							font-size: 10px
+							line-height: 14px
+							text-align: left
+							padding-left: 12px
+							padding-right: 12px
+
+					.col, td
+						width: 78px
+						padding-left: 5px
+						padding-right: 5px
+						box-sizing: border-box
+						font-size: 12px
+						color: #000000
+						font-weight: normal
+						&:nth-of-type(1)
+							width: 260px
+							padding-left: 18px
+							padding-right: 18px
+							box-sizing: border-box
+							text-align: left
+	.partners
+		padding-bottom: 75px
+		::-webkit-scrollbar
+			background: #f3eed7
+			width: 4px
+			border-radius: 10px
+		::-webkit-scrollbar-thumb
+			background: #6E4944
+			border-radius: 10px
+		.list
+			text-align: center
+			height: 103px
+			overflow-y: scroll
+			margin: 0 auto
+			.item
+				display: inline-block
+				margin: 15px
+	.news
+		.item
+			&:first-of-type
+				padding-top: 25px
+			&:nth-of-type(even)
+				background: #F5EED7
+				.content
+					float: left !important
+					padding-right: 20px
+		img
+			height: 122px
+			width: 137px
+			border: 5px solid $c4
+			border-radius: 5px
+		.img
+			width: 147px
+		.content
+			float: right !important
+			width: 841px
+			padding-left: 9px
+			box-sizing: border-box
+			.data
+				margin-top: 5px
+			.views
+				opacity: 0.5
+				margin-right: 7px
+				display: inline-block
+				i
+					margin-right: 4px 
+			a
+				border-bottom: 1px solid #654943 
+				font-size: 16px
+				color: #654943
+				float: right
+	.news-item, .photogallery-in
+		padding-top: 56px
+		.left
+			float: left
+			padding-top: 10px
+			img
+				border: 5px solid $c4
+				border-radius: 5px
+		.right
+			float: right
+			padding-left: 46px
+			width: 485px
+			position: relative
+			padding-bottom: 0px
+			h1
+				font-size: 36px
+				font-weight: 600
+				color: $c4
+				text-transform: uppercase
+				padding-bottom: 25px
+			.data
+				margin-top: 17px
+				margin-bottom: 18px 
+			.views
+				opacity: 0.5
+				margin-right: 7px
+				display: inline-block
+				i
+					margin-right: 4px
+			.btn
+				border-radius: 4px
+				width: 180px
+				margin-left: 0
+				margin-top: -35px
+				box-sizing: border-box
+
+			.text 
+				p
+					line-height: 24px
+					
+
+			.slider
+				img
+					height: 64px
+					width: 108px
+			.slick-arrow
+				z-index: 1
+				background: $c4
+				width: 16px
+				height: 64px
+				&:before
+					display: none
+				&:hover
+					background: rgba(255,255,255,.5)
+			.slick-prev
+				left: 0
+			.slick-next
+				right: 11px
+	.ladder
+		.item
+			padding-top: 54px
+			padding-bottom: 50px
+			&:first-of-type
+				padding-top: 20px
+			&:nth-of-type(even)
+				.img
+					float: right
+				.content
+					padding-left: 0
+		.content, .img
+			float: left
+		h3
+			font-size: 18px
+			font-weight: normal
+			line-height: 24px
+			margin: 4px 0
+		p
+			line-height: 24px
+		.fz25
+			font-size: 25px
+			color: $c4
+			font-weight: normal
+			margin-bottom: 12px
+			line-height: 24px
+	.masters
+		padding-top: 62px
+		.item
+			&:first-of-type
+				padding-top: 0
+			&:nth-of-type(even)
+				background: #F1F1F1
+				.works
+					float: left
+		.img img
+			width: 312px
+			border: 5px solid $c4
+			border-radius: 5px
+		.content
+			width: 656px
+			padding-left: 20px
+			box-sizing: border-box
+		.works
+			color: #7f6a66
+			float: right
+
+			span
+				position: relative
+				display: inline-block
+				top: -30px
+				margin-right: 6px
+			img
+				display: inline-block
+				width: 107px
+				height: 65px
+				margin-left: 7px
+		.text
+			margin-bottom: 20px
+	.brands
+		.item
+			&:nth-of-type(even)
+				background: #F1F1F1
+		.img
+			width: 325px
+			text-align: center
+			padding-top: 10px
+			img
+				width: 80%
+		.content
+			padding-left: 20px
+			padding-right: 10px
+			width: 656px
+			box-sizing: border-box
+		.price
+			margin-top: 10px
+			color: #e4d9ae
+			font-size: 20px
+			font-weight: normal
+			var
+				color: $c4
+				font-style: normal
+				font-weight: normal
+	.shares
+		.item
+			&:first-of-type
+				padding-top: 25px
+			&:nth-of-type(even)
+				background: #F5EED7
+				.content
+					float: left
+					padding-right: 20px
+					span + span
+						float: none
+		img
+			height: 122px
+			width: 137px
+			border: 5px solid $c4
+			border-radius: 5px
+		.img
+			width: 147px
+		.content
+			float: right
+			width: 841px
+			padding-left: 9px
+			box-sizing: border-box
+		.date
+			float: right
+			font-size: 16px
+			color: $c4
+			display: inline-block
+			margin-top: 5px
+			span
+				display: inline-block
+				border-bottom: 1px solid $c4
+			span + span
+				border-bottom: none
+				margin-left: 12px
+				color: $c1
+	.photogallery
+		.item
+			float: left
+			width: 33.3333%
+			text-align: center
+			margin-bottom: 15px
+			&:nth-of-type(3n+1)
+				padding-right: 11px
+				box-sizing: border-box
+			&:nth-of-type(3n)
+				padding-left: 11px
+				box-sizing: border-box
+			img
+				border: 5px solid $c4
+				border-radius: 5px
+			a
+				color: #4e3530
+				text-transform: uppercase
+				font-weight: normal
+				font-size: 25px
+	.photogallery-in
+		.text
+			p
+				&:last-of-type
+					padding-bottom: 40px
+	.invested
+		.content
+			min-height: 400px
+			padding-bottom: 20px
+			p
+				margin-bottom: 10px
+#footer
+	background: $c4
+	color: $c2
+	padding-top: 31.5px
+	padding-bottom: 22px
+	font-size: 12px
+	line-height: 18px
+	h4
+		font-size: 12px
+		font-weight: 300
+	a
+		color: $c2
+	ul
+		list-style: none
+		margin: 0 0 7px
+		&.nav-block
+			a
+				border-bottom: 1px solid
+	.left
+		width: 307px
+		.search-form
+			margin-top: 20px
+			input
+				margin-right: 12px
+	.middle
+		width: 380px
+		margin-left: 80px
+		margin-right: 80px
+		p
+			font-size: 18px
+			text-align: center
+			margin-bottom: 15px
+		input
+			margin-right: 20px
+		input + input
+			margin-right: 0
+		.btn
+			display: block
+			margin: 0 auto
+			width: 180px
+	.right
+		width: 150px
+		.icon-row
+			margin: 10px 0
+	input
+		display: inline-block
+	.btn
+		display: inline-block
+		border: none
+		border-radius: 5px
+		font-size: 14px

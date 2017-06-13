@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+	</head>
+	<body>
+		<div class="popup callback">
+			<div class="container">
+				<div class="this">
+					<span class="title">Обратный звонок</span>
+					<div class="form">
+						<form>
+							<input type="text" placeholder="Имя" name="name">
+							<input type="text" placeholder="Телефон" name="tel">
+							<button class="btn green">Отправить</button>
+						</form>
+					</div>
+					<div class="message">Заявка успешно отправлена!</div>
+				</div>
+				<button class="close">x</button>
+			</div>
+		</div>
+		<div class="popup video">
+			<div class="container">
+				<div class="this">
+					<iframe width="500" height="350" src="https://www.youtube.com/embed/2MkPcIyPsSM" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<button class="close">x</button>
+			</div>
+		</div>
+		
+		<div id="header">
+			<div class="panel">
+				<div class="container row">
+					<div class="col left">
+						<a href="#" class="tel">+7 (495) 410-33-33</a>
+						<button class="callbackBtn">Обратный звонок</button>
+					</div>
+					<div class="col right">
+						<a href="#"><i class="icon icon-facebook"></i></a>
+						<a href="#"><i class="icon icon-instagram"></i></a>
+						<a href="#"><i class="icon icon-youtube"></i></a>
+						<a href="#"><i class="icon icon-vk"></i></a>
+						<a href="#"><i class="icon icon-human"></i></a>
+						<a href="#"><i class="icon icon-search"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="container row w3">
+					<ul class="col nav-line left">
+						<li><a href="#">О салоне</a></li>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Услуги <i class="icon icon-arrow-down"></i></a>
+							<ul class="drop-down">
+								<li><a href="#">Название</a></li>
+								<li><a href="#">Название</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="col middle">
+						<a href="#" class="logo"><img src="upload/logo/1.png" alt=""></a>
+						<button class="btn green with-border">Онлайн запись</button>
+					</div>
+					<ul class="col nav-line right">
+						<li><a href="#">New</a></li>
+						<li><a href="#">Beauty shop</a></li>
+						<li><a href="#">Найти салон</a></li>
+					</ul>
+					<button id="sticks">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+			<div class="slider main">
+				<div class="logo-abs"><img src="upload/logo/2.png" alt=""></div>
+				<div class="wrapper">
+					<div class="item"><img src="upload/slider/1.jpg" alt=""></div>
+					<div class="item"><img src="upload/slider/2.jpg" alt=""></div>
+					<div class="item"><img src="upload/slider/3.jpg" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+
+			<!-- новое на главной -->
+			<div class="new container">
+				<h2>Что у нас нового<i class="icon icon-flower-mini-purple"></i></h2>
+				<div class="list row w4">
+					<div class="item col">
+						<h5>Товар недели</h5>
+						<div class="wrapper">
+							<img src="upload/new/1.jpg">
+							<div class="btn-wrapper">
+								<div><a href="#" class="btn white">Подробнее</a></div>
+							</div>
+						</div>
+						<p>LEBEL IAU CREAM MELT REPAIR M, 200 МЛ</p>
+						<p class="bold">1 900 руб.</p>
+					</div>
+					<div class="item col">
+						<h5>Новая услуга</h5>
+						<div class="wrapper">
+							<img src="upload/new/2.jpg">
+							<div class="btn-wrapper">
+								<div><a href="#" class="btn white">Подробнее</a></div>
+							</div>
+						</div>
+						<p>АНАНАСОВОЕ ОБЕРТЫВАНИЕ</p>
+						<p class="bold">От 1 600 руб.</p>
+					</div>
+					<div class="item col">
+						<h5>Акция</h5>
+						<div class="wrapper">
+							<img src="upload/new/3.jpg">
+							<div class="share">-50%</div>
+							<div class="btn-wrapper">
+								<div><a href="#" class="btn white">Подробнее</a></div>
+							</div>
+						</div>
+						<p>50% СКИДКА НА EVEN SKINTONE SERUM, 30 МЛ</p>
+						<p class="bold">4 800 руб. 2400 руб.</p>
+					</div>
+					<div class="item col">
+						<h5>Мероприятие 12.11</h5>
+						<div class="wrapper">
+						<img src="upload/new/4.jpg">
+							<div class="btn-wrapper">
+								<div><a href="#" class="btn white">Подробнее</a></div>
+							</div>
+						</div>
+						<p>МАСТЕР_КЛАСС “ПОДДЕРЖАНИЕ ИДЕАЛЬНОЙ ФИГУРЫ”</p>
+						<p class="bold">ВХОД 5 000 руб.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- о нас на главной -->
+			<div class="about-main">
+				<div class="container">
+					<h2>О Gee<span class="color-gold">B</span>eauty<i class="icon icon-flower-mini-yellow"></i></h2>
+					<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA. Успех московского Aldo Coppola в скором времени распространился и на регионы, образовав франчайзинговую сеть по всей России. Итальянские центры уже успели покорить Пермь, Кострому, Алма-Ату, Новосибирск, Челябинск, Краснодар, Владивосток. Тонкое чувство красоты и стиля, безграничная любовь к своему делу, стремление к непрерывному самосовершенствованию всей творческой команды позволили вывести компанию на лидирующие позиции в своей нише.</p>
+					<div class="bottom row">
+						<div class="col left">
+							<div class="slider mini">
+								<div class="item"><img src="upload/picture.jpg" alt=""></div>
+								<div class="item"><img src="upload/picture.jpg" alt=""></div>
+								<div class="item"><img src="upload/picture.jpg" alt=""></div>
+							</div>
+						</div>
+						<div class="col right">
+							<p>Смотрите видео презентацию:</p>
+							<div class="video-circle">
+								<img src="upload/video.png" alt="">
+								<i class="icon icon-triangle_video"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-block container clearfix">
+				<h2>о сал<span class="color-gold">о</span>не<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="left"><p>Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA. Успех московского Aldo Coppola в скором времени распространился и на регионы, образовав франчайзинговую сеть по всей России. Итальянские центры уже успели покорить Пермь, Кострому, Алма-Ату, Новосибирск, Челябинск, Краснодар, Владивосток. Тонкое чувство красоты и стиля,безграничная любовь к своему делу, стремление к непрерывному самосовершенствованию всей творческой команды позволили вывести компанию на лидирующие позиции в своей нише.</p></div>
+				<div class="right">
+					<div class="slider mini">
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+					</div>
+				</div>
+
+			</div>
+			<div class="about-page container">
+				<h2>о сал<span class="color-gold">о</span>не<i class="icon icon-flower-mini-yellow"></i></h2>
+				<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA. Успех московского Aldo Coppola в скором времени распространился и на регионы, образовав франчайзинговую сеть по всей России. Итальянские центры уже успели покорить Пермь, Кострому, Алма-Ату, Новосибирск, Челябинск, Краснодар, Владивосток. Тонкое чувство красоты и стиля,безграничная любовь к своему делу, стремление к непрерывному самосовершенствованию всей творческой команды позволили вывести компанию на лидирующие позиции в своей нише.</p>
+				<div class="bottom row">
+					<div class="col left">
+						<div class="video">
+								<!-- <video width="350" height="210" poster="upload/picture.jpg">
+								   <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+								   <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+								   <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+							  	</video> -->
+						  	<iframe width="350" height="210" src="https://www.youtube.com/embed/2MkPcIyPsSM" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col middle job">
+						<p>Открытые вакансии:</p>
+						<ul>
+							<li><a href="#">1) Косметолог</a></li>
+							<li><a href="#">2) Нейл мейкер</a></li>
+							<li><a href="#" class="tdlt">3) Леш мейкер</a></li>
+							<li><a href="#">4) Администратор </a></li>
+						</ul>
+					</div>
+					<div class="col right reviews">
+						<div class="item">
+							<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+							<div class="content">
+								<p class="name">Катя Сабанцева</p>
+								<p class="data">21.11.2016</p>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы.</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+							<div class="content">
+								<p class="name">Катя Сабанцева</p>
+								<p class="data">21.11.2016</p>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- список услуг -->
+			<div class="services container">
+				<div class="row services-title w3">
+					<div class="col left"><i class="icon icon-price"></i><a href="#">скачать полный прайс лист</a></div>
+					<div class="col middle"><h2>Усл<span class="color-gold">у</span>ги<i class="icon icon-flower-mini-yellow"></i></h2></div>
+					<div class="col right"><i class="icon icon-filter"></i><a href="#">Фильтр</a></div>
+				</div>
+				<div class="row services-list">
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+					<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Spa - центр</a></div>
+				</div>
+			</div>
+
+			<!-- сама услуга -->
+			<div class="services container">
+				<div class="row services-title w3">
+					<div class="col left"><i class="icon icon-price"></i><a href="#">скачать полный прайс лист</a></div>
+					<div class="col middle"><h2>Усл<span class="color-gold">у</span>ги<i class="icon icon-flower-mini-yellow"></i></h2></div>
+					<div class="col right"><i class="icon icon-filter"></i><a href="#">Фильтр</a></div>
+				</div>
+				<div class="service row">
+					<div class="col left">
+						<ul class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+							<li><a href="#" rel="nofollow" itemprop="url"><span itemprop="title">Парикмахерский зал</span></a></li>
+							<li>Стрижка</li>
+						</ul>
+						<div class="articles clearfix">
+							<div class="item">
+								<img src="upload/face.jpg" alt="">
+								<p>Мужские фото стрижки(20шт)</p>
+								<a href="#">Смотреть</a>
+							</div>
+							<div class="item">
+								<img src="upload/face.jpg" alt="">
+								<p>Женские фото стрижки(20шт)</p>
+								<a href="#">Смотреть</a>
+							</div>
+							<div class="item">
+								<img src="upload/face.jpg" alt="">
+								<p>Нюансы которые стоит помниь при стрижке</p>
+								<a href="#">Читать</a>
+							</div>
+							<div class="item">
+								<img src="upload/face.jpg" alt="">
+								<p>Окрашивание без амиачное(обычное)</p>
+								<a href="#">Читать</a>
+							</div>
+						</div>
+						<div class="descrition">
+							<p>Мы подчеркнем индивидуальную форму Вашей бороды и усов, придав им опрятный и аккуратный вид с помощью ножниц, машинок и триммеров. А также профессионально проконсультируем по вопросам ухода за бородой и укладки усов.</p>
+							<p>Счастливые обладатели бороды вынуждены уделять значительное время уходу за ней и поддержанию желаемой ровной формы. Наши мастера с готовностью помогут в этом нелегком деле, проявив высокий профессионализм и максимальную открытость к Вашим пожеланиям.</p>
+							<p>Стрижка усов и бороды может включать в себя как ручную стрижку, так и стрижку машинкой, выполненную с помощью специализированного барберского триммера ______________.</p>
+							<p>Процедура длится приблизительно 30 минут</p>
+						</div>
+						<div class="price">
+							<h3>Стоимость услуг</h3>
+							<table class="table">
+								<tr class="title">
+									<td>Проедура</td>
+									<td>Бренд</td>
+									<td class="fz10">короткие<br />волосы до<br />___ см</td>
+									<td class="fz10">короткие<br />волосы до<br />___ см</td>
+									<td class="fz10">короткие<br />волосы до<br />___ см</td>
+									<td class="fz10">короткие<br />волосы до<br />___ см</td>
+								</tr>
+								<tr>
+									<td>Окрашивание</td>
+									<td></td>
+									<td>3500</td>
+									<td>4000</td>
+									<td>5000</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Обесцвечивание</td>
+									<td></td>
+									<td>3500</td>
+									<td>4000</td>
+									<td>5000</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Окрашивание</td>
+									<td></td>
+									<td>3500</td>
+									<td>4000</td>
+									<td>5000</td>
+									<td>3500</td>
+								</tr>
+								<tr>
+									<td>Обесцвечивание</td>
+									<td></td>
+									<td>3500</td>
+									<td>4000</td>
+									<td>5000</td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="col right reviews">
+						<h3>Отзывы</h3>
+						<div class="row list">
+							<div class="item">
+								<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+								<div class="content">
+									<p class="name">Катя Сабанцева</p>
+									<p class="data">21.11.2016</p>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы.</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+								<div class="content">
+									<p class="name">Катя Сабанцева</p>
+									<p class="data">21.11.2016</p>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы.</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+								<div class="content">
+									<p class="name">Катя Сабанцева</p>
+									<p class="data">21.11.2016</p>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы.</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+								<div class="content">
+									<p class="name">Катя Сабанцева</p>
+									<p class="data">21.11.2016</p>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- список услуг в услуге -->
+			<div class="services container">
+				<div class="row services-title w3">
+					<div class="col left"><i class="icon icon-price"></i><a href="#">скачать полный прайс лист</a></div>
+					<div class="col middle"><h2>Усл<span class="color-gold">у</span>ги<i class="icon icon-flower-mini-yellow"></i></h2></div>
+					<div class="col right"><i class="icon icon-filter"></i><a href="#">Фильтр</a></div>
+				</div>
+				<div class="service row">
+					<div class="col left">
+						<ul class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+							<li>Парикмахерский зал</li>
+						</ul>
+						<div class="services-service-list">
+							<div class="item">
+								<div class="left">
+									<a href="#">Окрашивание</a>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.</p>
+								</div>
+								<div class="right">
+									<a href="#"><i class="icon icon-tel"></i></a>
+									<a href="#"><i class="icon icon-question"></i></a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="left">
+									<a href="#">Окрашивание</a>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.</p>
+								</div>
+								<div class="right">
+									<a href="#"><i class="icon icon-tel"></i></a>
+									<a href="#"><i class="icon icon-question"></i></a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="left">
+									<a href="#">Окрашивание</a>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.</p>
+								</div>
+								<div class="right">
+									<a href="#"><i class="icon icon-tel"></i></a>
+									<a href="#"><i class="icon icon-question"></i></a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="left">
+									<a href="#">Окрашивание</a>
+									<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.</p>
+								</div>
+								<div class="right">
+									<a href="#"><i class="icon icon-tel"></i></a>
+									<a href="#"><i class="icon icon-question"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col right reviews">
+						<h3>Отзывы</h3>
+						<div class="row list">
+							<div class="row list">
+								<div class="item">
+									<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+									<div class="content">
+										<p class="name">Катя Сабанцева</p>
+										<p class="data">21.11.2016</p>
+										<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+									<div class="content">
+										<p class="name">Катя Сабанцева</p>
+										<p class="data">21.11.2016</p>
+										<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+									<div class="content">
+										<p class="name">Катя Сабанцева</p>
+										<p class="data">21.11.2016</p>
+										<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="img"><img src="upload/reviews/1.png" alt=""></div>
+									<div class="content">
+										<p class="name">Катя Сабанцева</p>
+										<p class="data">21.11.2016</p>
+										<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- партнеры -->
+			<div class="partners container">
+				<h2>парт<span class="color-gold">н</span>еры<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="list">
+					<div class="item"><img src="upload/partners/1.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/2.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/3.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/4.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/1.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/2.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/3.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/4.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/1.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/2.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/3.jpg" alt=""></div>
+					<div class="item"><img src="upload/partners/4.jpg" alt=""></div> 
+				</div>
+			</div>
+			
+			<!-- новости -->	
+			<div class="news ladder">
+				<h2>Нов<span class="color-gold">o</span>сти<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="list">
+					<div class="item">
+						<div class="container">
+							<div class="img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="data">
+									<span class="views"><i class="icon icon-eye"></i>180</span>
+									<span class="date">14.11.2016</span>
+									<a href="#">Читать далее...</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<div class="img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="data">
+									<span class="views"><i class="icon icon-eye"></i>180</span>
+									<span class="date">14.11.2016</span>
+									<a href="#">Читать далее...</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<div class="img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="data">
+									<span class="views"><i class="icon icon-eye"></i>180</span>
+									<span class="date">14.11.2016</span>
+									<a href="#">Читать далее...</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container">
+							<div class="img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="data">
+									<span class="views"><i class="icon icon-eye"></i>180</span>
+									<span class="date">14.11.2016</span>
+									<a href="#">Читать далее...</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- новость -->
+			<div class="news-item container clearfix">
+				<div class="left"><img src="upload/event.jpg" alt=""></div>
+				<div class="right">
+					<h1>новость</h1>
+					<div class="text">
+						<p>Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA. Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.</p>
+					</div>
+					<p class="data"><span class="views"><i class="icon icon-eye"></i>180</span><span class="date">14.11.2016</span></p>
+					<div class="slider skinny">
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""></div>
+					</div>
+				</div>
+			</div>
+			<div class="photogallery container">
+				<div class="row">
+					<h2>У нас у<span class="color-gold">ю</span>тно<i class="icon icon-flower-mini-yellow"></i></h2>
+					<div class="row list">
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+					</div>
+				</div>
+				<div class="row">
+					<h2>работ<span class="color-gold">а</span>ем для вас<i class="icon icon-flower-mini-yellow"></i></h2>
+					<div class="row list">
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+					</div>
+				</div>
+				<div class="row">
+					<h2>у нас ин<span class="color-gold">т</span>ересно<i class="icon icon-flower-mini-yellow"></i></h2>
+					<div class="row list">
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+						<div class="item"><img src="upload/picture.jpg" alt=""><a href="#">Комната 1</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="photogallery-in container">
+				<div class="row">
+					<div class="left"><img src="upload/event.jpg" alt=""></div>
+					<div class="right">
+						<h1>событие</h1>
+						<div class="text">
+							<p>Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA. Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="left"></div>
+					<div class="right"><a href="#" class="btn green">Оставить отзыв</a></div>
+				</div>
+			</div>
+			<!-- мастера -->
+			<div class="masters ladder">
+				<h2>маст<span class="color-gold">е</span>ра<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="list">
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/face.jpg" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Дронова Анастасия</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="works">
+									<span>Работы:</span>
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/picture.jpg" alt="">
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/face.jpg" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Дронова Анастасия</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="works">
+									<span>Работы:</span>
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/picture.jpg" alt="">
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/face.jpg" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Дронова Анастасия</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="works">
+									<span>Работы:</span>
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/picture.jpg" alt="">
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/face.jpg" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Дронова Анастасия</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="works">
+									<span>Работы:</span>
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/face.jpg" alt="">
+									<img src="upload/picture.jpg" alt="">
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- бренды -->
+			<div class="brands ladder">
+				<h2>бр<span class="color-gold">е</span>нды<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="list">
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/brands/garnier.png" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Название бренда</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="price">Цена: <var class="color-brown">300p.</var></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/brands/garnier.png" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Название бренда</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="price">Цена: <var class="color-brown">300p.</var></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/brands/garnier.png" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Название бренда</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="price">Цена: <var class="color-brown">300p.</var></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/brands/garnier.png" alt=""></div>
+							<div class="col content">
+								<h3 class="fz25">Название бренда</h3>
+								<p class="text">Первый центр красоты GeeBeauty в России появился в легендарном «Садко-Аркада» в 1994 году, мгновенно став одним из самых модных мест столицы. На сегодняшний день в Москве и Подмосковье открыто 6 Центров Красоты и SPA.  </p>
+								<p class="price">Цена: <var class="color-brown">300p.</var></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="shares ladder">
+				<h2>ак<span class="color-gold">ц</span>ии<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="list">
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="col content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="date"><span>Предложение действет до:</span><span class="color-brown">14.11.2016</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="col content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="date"><span>Предложение действет до:</span><span class="color-brown">14.11.2016</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="col content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="date"><span>Предложение действет до:</span><span class="color-brown">14.11.2016</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="container row">
+							<div class="col img"><img src="upload/picture.jpg" alt=""></div>
+							<div class="col content">
+								<h3>Что такое Lorem Ipsum?</h3>
+								<p class="text">Это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. ....</p>
+								<p class="date"><span>Предложение действет до:</span><span class="color-brown">14.11.2016</span></p>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+			<div class="invested container">
+				<h2>Текст<i class="icon icon-flower-mini-yellow"></i></h2>
+				<div class="content"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container row">
+				<div class="col left">
+					<h4>ООО "GeeBeauty" - Центр здоровья и красоты Vobraze</h4>
+					<ul class="nav-block">
+						<li><a href="#">Официальная информация</a></li>
+						<li><a href="#">Сертификаты и лицензии</a></li>
+						<li><a href="#">Медицинский персонал центра</a></li>
+					</ul>
+					<h4>Beauty Shop Vобразе</h4>
+					<ul class="nav-block">
+						<li><a href="#">Условия продажи товаров</a></li>
+						<li><a href="#">Доставка и самовывоз</a></li>
+						<li><a href="#">Вакансии</a></li>
+					</ul>
+					<div class="search-form">
+						<form action="">
+							<input type="text" placeholder="Найти салон...">
+							<div class="btn green">Найти</div>
+						</form>
+					</div>
+				</div>
+				<div class="col middle">
+					<p>Подпишитесь на наши новости и акции:</p>
+					<form action="">
+						<input type="text" placeholder="Введите имя..."><input type="text" placeholder="Введите email...">
+						<div class="btn green">Подписаться</div>
+					</form>
+				</div>
+				<div class="col right">
+					<p><a href="#">+7 (495) 983 32 33</a></p>
+					<p><a href="#">+7 (906) 721 32 32</a></p>
+					<p>E-mail: <a href="#">info@gbeauty.com</a></p>
+					<p>Skype: <a href="#">gbeauty</a></p>
+					<p>&copy 2012-2016 GeeBeauty</p>
+					<p class="icon-row">
+						<i class="icon icon-wifi"></i>
+						<i class="icon icon-visa"></i>
+						<i class="icon icon-mastercard"></i>
+					</p>
+					<img src="upload/qar.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="css/libs.min.css">
+		<link rel="stylesheet" href="css/global.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script src="js/libs.min.js"></script>
+		<script src="js/global.js"></script>
+	</body>
+</html>
